@@ -1,7 +1,11 @@
 
 package lista5.exe2;
 
-public abstract class Animal {
-    public abstract void come();
-    public abstract void respira();   
+public class Animal {
+    public void come(){
+        System.out.println("Animal comeu");
+    };
+    public void respira(){
+        System.out.println("Animal respirou");
+    };   
 }
